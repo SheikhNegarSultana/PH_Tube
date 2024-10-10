@@ -7,7 +7,7 @@ function fetchCategory(){
 function displayCategory(categories){
     const categoryNav = document.getElementById('categories')
     for( const item of categories){
-        console.log(item)
+        // console.log(item)
         const button = document.createElement('button')
         button.classList = 'btn btn-outline btn-primary'
         button.textContent = item.category
